@@ -8,6 +8,10 @@ public class IntroductionOfWalter {
 //    Created a property that is string
     String waltersFirstName = "Walter";
 
+    String waltersLastName = "Smith";
+
+
+
 
     public static void main(String[] args){
 
