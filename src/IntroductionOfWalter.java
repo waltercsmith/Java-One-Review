@@ -11,11 +11,15 @@ public class IntroductionOfWalter {
     String waltersLastName = "Smith";
 
 
-
+    String nickName = "WaltWalt";
 
     public static void main(String[] args){
 
         System.out.println("Hello, Walter! You are now an Alumni of Codeup!");
+
+
+        String nickName = "WaltWalt";
+        System.out.printf("Some of my family members on my mom's side call me %s. I still respond to that nickname", nickName);
     }
 
 }
