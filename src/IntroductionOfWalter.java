@@ -23,11 +23,19 @@ public class IntroductionOfWalter {
 
 
         String nickName = "WaltWalt";
-        System.out.printf("Some of my family members on my mom's side call me %s. I still respond to that nickname", nickName);
+        System.out.printf("Some of my family members on my mom's side call me %s. \n", nickName);
 
 //        I have instantiate a new object from the scanner class which was imported to this java class
-        Scanner userInput = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
+//        Prompt the user to type something
+        System.out.println("Hello, type something: ");
+
+//        This will obtain the value the user inputs as a string and stores it into the value of userInput
+        String userInput = scanner.nextLine();
+
+//        This last portion displays the user's input
+        System.out.println("The user typed: \n" + userInput);
     }
 
 }
